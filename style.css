@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Lato:wght@400;700&family=Roboto&display=swap');
+
+body {
+    background-color: rgb(234, 232, 229);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+}
+
+/* header */
+header {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+header h1 {
+    padding-top: 50px;
+    padding-left: 180px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* navbar */
+.container {
+    background-color: blue;
+}
+
+.navflex {
+    background-color: rgb(230, 229, 227);
+    display: flex;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.orange {
+    color: orangered;
+}
+
+.black {
+    color: black;
+}
+
+.navflex a {
+    text-decoration: none;
+}
+
+.navflex a:hover {
+    /* background-color: #00adb5; */
+    color: #0e939a;
+}
+
+.navflex li {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.mainbody {
+    background-color: aliceblue;
+    width: 75%;
+    margin-left: 185px;
+    margin-right: 150px;
+
+    height: 1270px;
+}
+
+/* background image */
+.backimg {
+    display: flex;
+    justify-content: center;
+    /* background-color: aliceblue; */
+}
+
+
+.backimg img {
+    width: 1135px;
+    height: 400px;
+}
+
+/* content part */
+
+
+.men {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    width: 25%;
+    height: 250px;
+    font-size: 1.3em;
+    margin-right: 15px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.women {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    width: 25%;
+    height: 250px;
+    font-size: 1.3em;
+    margin-right: 8px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.kids {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    width: 25%;
+    height: 250px;
+    font-size: 1.3em;
+    /* margin-right: 20px; */
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content button {
+    background-color: black;
+    color: white;
+    width: 130px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.belowbody {
+    /* border: 1px solid black; */
+    margin-top: 90px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 50px;
+
+    width: 50%;
+}
+
+mark {
+    background-color: aliceblue;
+    color: orangered;
+}
+
+.belowbody h1 {
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.belowbody p {
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+.belowbody a {
+    /* text-decoration: dotted; */
+    color: black;
+}
+
+.belowpara {
+    margin-top: 8px;
+}
+
+.belowlist {
+    margin-top: 10px;
+}
+
+/* footer */
+footer {
+    background-color: rgb(188, 155, 155);
+    height: 120px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footericon {
+    display: flex;
+    justify-content: center;
+}
+
+.footericon li {
+    margin: 0 15px;
+    margin-top: 10px;
+
+}
+
+.footericon li a {
+    color: black;
+}
+
+.footericon li:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.facebook:hover {
+    color: blue;
+}
+
+.instagram:hover {
+    color: #e11d74;
+}
+
+.twitter:hover {
+    color: #00adb5;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+
+
+/* about us page */
+.about {
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    margin-left: 288px;
+    margin-right: 150px;
+    margin-top: 20px;
+
+    padding: 20px;
+
+    height: 350px;
+
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+#firstPara {
+    margin-top: 10px;
+}
+
+
+
+/* mens wear */
+
+.menImg {
+    background-color: aliceblue;
+    margin-left: 280px;
+    margin-top: 30px;
+    margin-right: 180px;
+    height: 611px;
+}
+
+.menshead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.mensImg {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* womens wear */
+.womenImg {
+    background-color: aliceblue;
+    margin-left: 280px;
+    margin-top: 30px;
+    margin-right: 180px;
+    height: 611px;
+}
+
+.womenshead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.womensImg {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* kids wear */
+.kidImg {
+    background-color: aliceblue;
+    margin-left: 280px;
+    margin-top: 30px;
+    margin-right: 180px;
+    height: 611px;
+}
+
+.kidshead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.kidsImg {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* contact us */
+.contactform {
+    background-color: aliceblue;
+    margin-left: 280px;
+    margin-top: 20px;
+    margin-right: 180px;
+    height: 450px;
+    /* text-align: center; */
+}
+
+
+#formhead {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2em;
+    padding-top: 25px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+}
+
+/* .labelcontact{ */
+/* border: 1px solid black; */
+
+/* } */
+
+#fullname {
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Email {
+    margin-left: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#username {
+    width: 30%;
+}
+
+#email {
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    /* margin-left: 30px; */
+    width: 30%;
+}
+
+#contactNum {
+    margin-left: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contactnumber {
+    /* margin-top: 10px; */
+    margin-right: 2px;
+    margin-bottom: 5px;
+    width: 30%;
+}
+
+#messagelabel {
+    margin-left: 30px;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+}
+
+#message {
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline;
+    /* width: 30%; */
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+#contactfooter {
+    background-color: black;
+    height: 80px;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+
+/* common for login and signup */
+/* ===== Google Font Import - Poformsins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+}
+
+.container1{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+.container1 .forms{
+    display: flex;
+    align-items: center;
+    height: 440px;
+    width: 200%;
+    transition: height 0.2s ease;
+}
+
+
+.container1 .form{
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    transition: margin-left 0.18s ease;
+}
+
+.container1.active .login{
+    margin-left: -50%;
+    opacity: 0;
+    transition: margin-left 0.18s ease, opacity 0.15s ease;
+}
+
+/* .container1 .signup{
+    opacity: 0;
+    transition: opacity 0.09s ease;
+} */
+.container1.active .signup{
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.container1.active .forms{
+    height: 600px;
+}
+.container1 .form .title{
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.form .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #4070f4;
+    border-radius: 25px;
+}
+
+.form .input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.input-field input:is(:focus, :valid){
+    border-bottom-color: #4070f4;
+}
+
+.input-field i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+    transition: all 0.2s ease;
+}
+
+.input-field input:is(:focus, :valid) ~ i{
+    color: #4070f4;
+}
+
+.input-field i.icon{
+    left: 0;
+}
+.input-field i.showHidePw{
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.form .checkbox-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input{
+    margin-right: 10px;
+    accent-color: #4070f4;
+}
+
+.form .text{
+    color: #333;
+    font-size: 14px;
+}
+
+.form a.text{
+    color: #4070f4;
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+
+.form .button{
+    margin-top: 35px;
+}
+
+.form .button input{
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input:hover{
+    background-color: #265df2;
+}
+
+.form .login-signup{
+    margin-top: 30px;
+    text-align: center;
+}
